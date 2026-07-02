@@ -2033,7 +2033,7 @@ blockquote:after {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-bottom: 50%;
+  /* padding-bottom: 50%; */
 }
 
 .mry-map-frame .mry-map {
