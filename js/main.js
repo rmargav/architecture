@@ -236,7 +236,7 @@
 
   var swiper = new Swiper(".mry-main-slider", {
     autoplay: {
-      delay: 10000,
+      delay: 30000,
       disableOnInteraction: false,
     },
     loop: true,
@@ -595,7 +595,7 @@
 
     var swiper = new Swiper(".mry-main-slider", {
       autoplay: {
-        delay: 10000,
+        delay: 30000,
         disableOnInteraction: false,
       },
       spaceBetween: 0,

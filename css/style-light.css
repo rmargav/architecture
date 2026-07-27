@@ -1272,7 +1272,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
   transition: width linear;
   transition-delay: unset;
   width: 100%;
-  transition-duration: 10s;
+  transition-duration: 30s;
 }
 
 .mry-slider-arrows {
