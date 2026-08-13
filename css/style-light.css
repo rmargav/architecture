@@ -78,7 +78,7 @@ Author URL: https://themeforest.net/user/ultimatewebsolutions/
 }
 
 body {
-  background-color: #f7f8fa;
+  background-color: #e8e1d7;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -95,16 +95,16 @@ body {
 
 .mry-text a {
   text-decoration: underline;
-  color: #ffb74d;
+  color: #436a29;
 }
 
 .mry-text a:hover {
-  color: #ffb74d;
+  color: #436a29;
   text-decoration: underline;
 }
 
 .mry-text .mry-color-text {
-  color: #ffb74d;
+  color: #436a29;
 }
 
 .mry-text.mry-simple-text {
@@ -364,7 +364,7 @@ h6 {
 
 .mry-btn:hover,
 .mry-btn-text:hover {
-  color: #ffb74d;
+  color: #436a29;
 }
 
 .mry-btn-text {
@@ -389,7 +389,7 @@ h6 {
 }
 
 .mry-link:hover {
-  color: #ffb74d;
+  color: #436a29;
 }
 
 /* Space */
@@ -501,7 +501,7 @@ h6 {
 .mry-app .mry-preloader .mry-preloader-content .mry-loader-bar .mry-loader {
   height: 100%;
   width: 0;
-  background-color: #ffb74d;
+  background-color: #436a29;
   transition-timing-function: ease-in;
 }
 
@@ -663,7 +663,7 @@ h6 {
 }
 
 .mry-menu nav ul .menu-item.current-menu-item a {
-  color: #ffb74d;
+  color: #436a29;
 }
 
 .mry-menu nav ul .menu-item .sub-menu {
@@ -811,7 +811,7 @@ html.is-rendering body .mry-ball svg {
 
 html.is-animating body .mry-ball svg path,
 html.is-rendering body .mry-ball svg path {
-  fill: #ffb74d;
+  fill: #436a29;
 }
 
 @keyframes loading {
@@ -929,7 +929,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
   content: "";
   width: 30px;
   height: 3px;
-  background-color: #ffb74d;
+  background-color: #436a29;
   border-radius: 3px;
   position: absolute;
   left: 0;
@@ -1213,7 +1213,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
   .mry-slider-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 20px;
-  background-color: #ffb74d;
+  background-color: #436a29;
 }
 
 .mry-slider-nav-panel {
@@ -1255,7 +1255,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
   position: absolute;
   top: 0;
   left: 0;
-  background: #ffb74d;
+  background: #436a29;
   border-radius: 3px;
   height: 100%;
   width: 0;
@@ -1563,7 +1563,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 }
 
 .mry-star-rate li i {
-  color: #ffb74d;
+  color: #436a29;
   font-size: 14px;
 }
 
@@ -1593,7 +1593,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 }
 
 .mry-pagination li.mry-active {
-  background-color: #ffb74d;
+  background-color: #436a29;
 }
 
 .mry-pagination li.mry-active a {
@@ -1643,7 +1643,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 
 .mry-form input:focus,
 .mry-form textarea:focus {
-  border-color: #ffb74d;
+  border-color: #436a29;
 }
 
 .mry-form input {
@@ -1805,7 +1805,7 @@ blockquote:after {
 }
 
 .mry-filter .mry-card-category.mry-current {
-  color: #ffb74d;
+  color: #436a29;
 }
 
 /* Work Item */
@@ -2014,7 +2014,7 @@ blockquote:after {
     margin-right: 0;
   }
   .mry-filter .mry-card-category.mry-current {
-    color: #ffb74d;
+    color: #436a29;
   }
 }
 
@@ -2075,7 +2075,7 @@ blockquote:after {
 }
 
 .mapboxgl-marker svg g {
-  fill: #ffb74d;
+  fill: #436a29;
 }
 
 .mapboxgl-marker svg circle {
@@ -2196,7 +2196,7 @@ blockquote:after {
 }
 
 .fancybox-progress {
-  background: #ffb74d;
+  background: #436a29;
   z-index: 999999999999999999;
 }
 
@@ -2205,7 +2205,7 @@ blockquote:after {
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #ffb74d;
+  border-color: #436a29;
   transition: 0.4s ease-in-out;
 }
 
@@ -2241,7 +2241,7 @@ blockquote:after {
 }
 
 .scrollbar-track .scrollbar-thumb {
-  background-color: #ffb74d !important;
+  background-color: #436a29 !important;
   opacity: 1 !important;
   width: 5px !important;
 }
