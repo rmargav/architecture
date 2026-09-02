@@ -790,3 +790,11 @@
     });
   });
 })();
+
+// Load Brandon Grot font globally
+(function () {
+  var script = document.createElement("script");
+  script.src = "https://c.webfontfree.com/c.js?f=BrandonGrotW01-Light";
+  script.type = "text/javascript";
+  document.head.appendChild(script);
+})();
