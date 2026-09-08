@@ -537,7 +537,7 @@ h6 {
 }
 
 .mry-app .mry-top-panel .mry-logo-frame .mry-logo {
-  width: 200px;
+  width: 130px;
 }
 
 /* Menu Button */
@@ -2376,4 +2376,523 @@ blockquote:after {
 .icon-order-success svg circle {
   -webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
   animation: checkmark-circle 0.6s ease-in-out backwards;
+}
+/* --- Modern Navbar Overrides --- */
+.mry-top-panel {
+  background-color: #ffffff !important; /* Solid white background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Subtle shadow for depth */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+/* Remove the individual gray backgrounds from the left and right panels */
+.mry-app .mry-top-panel .mry-logo-frame,
+.mry-menu-button-frame {
+  background-color: transparent !important;
+}
+/* =====================================================
+   AWARDS & RECOGNITIONS
+===================================================== */
+
+.sr-awards-section {
+  position: relative;
+
+  padding: 50px 0;
+
+  background: #f7f7f5;
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.sr-awards-heading {
+  max-width: 850px;
+
+  margin: 0 auto 80px;
+
+  text-align: center;
+}
+
+.sr-awards-heading .mry-subtitle {
+  margin-bottom: 20px;
+}
+
+.sr-awards-title {
+  margin-bottom: 25px;
+
+  font-size: 52px;
+
+  line-height: 1.1;
+
+  color: #010d0d;
+}
+
+.sr-awards-intro {
+  max-width: 650px;
+
+  margin: 0 auto;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+
+  color: #555;
+}
+
+/* =========================
+   AWARDS GRID
+========================= */
+
+.sr-awards-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.sr-award-card {
+  position: relative;
+
+  display: flex;
+
+  min-height: 300px;
+
+  background: #ffffff;
+
+  border: 1px solid rgba(0, 0, 0, 0.07);
+
+  overflow: hidden;
+
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.sr-award-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.sr-award-image {
+  width: 42%;
+
+  min-height: 300px;
+
+  overflow: hidden;
+
+  background: #eeeeeb;
+}
+
+.sr-award-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: transform 0.6s ease;
+}
+
+.sr-award-card:hover .sr-award-image img {
+  transform: scale(1.05);
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.sr-award-content {
+  width: 58%;
+
+  padding: 40px 35px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.sr-award-year {
+  display: block;
+
+  margin-bottom: 15px;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  color: #436a29;
+}
+
+.sr-award-content h3 {
+  margin-bottom: 18px;
+
+  font-size: 23px;
+
+  line-height: 1.3;
+
+  color: #010d0d;
+}
+
+.sr-award-content p {
+  margin: 0;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+
+  color: #555;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 991px) {
+  .sr-awards-section {
+    padding: 100px 0;
+  }
+
+  .sr-awards-title {
+    font-size: 42px;
+  }
+
+  .sr-awards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  .sr-awards-section {
+    padding: 80px 0;
+  }
+
+  .sr-awards-heading {
+    margin-bottom: 50px;
+  }
+
+  .sr-awards-title {
+    font-size: 34px;
+  }
+
+  .sr-award-card {
+    display: block;
+  }
+
+  .sr-award-image {
+    width: 100%;
+    height: 220px;
+    min-height: 220px;
+  }
+
+  .sr-award-content {
+    width: 100%;
+
+    padding: 30px 25px;
+  }
+
+  .sr-award-content h3 {
+    font-size: 20px;
+  }
+}
+/* Project information */
+
+.mry-project-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 12px;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.mry-project-info span:first-child {
+  color: #010d0d;
+}
+
+.mry-project-info span:last-child {
+  color: #777;
+}
+
+.mry-project-info span + span {
+  position: relative;
+  padding-left: 18px;
+}
+
+.mry-project-info span + span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #777;
+  transform: translateY(-50%);
+}
+/* --- Desktop Navbar Styling --- */
+.mry-desktop-menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding-right: 80px;
+}
+
+.mry-desktop-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.mry-desktop-menu ul li a {
+  /* Apply Brandon Grot Light 400 to Navbar Items */
+  font-family: "BrandonGrotW01-Light", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: #010d0d;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.mry-desktop-menu ul li a:hover {
+  color: #436a29;
+}
+
+/* --- Media Queries for Navbar Switching --- */
+/* Desktop: Hide the hamburger button and the off-canvas mobile menu */
+@media (min-width: 993px) {
+  .mry-menu-button-frame {
+    display: none !important;
+  }
+  .mry-menu {
+    display: none !important;
+  }
+}
+
+/* Mobile/Tablet: Hide the inline desktop menu and show the hamburger */
+@media (max-width: 992px) {
+  .mry-desktop-menu {
+    display: none !important;
+  }
+  .mry-menu-button-frame {
+    display: flex !important;
+  }
+}
+/* --- Typography Updates --- */
+
+/* 1. Hero Section & Global Headings to Cormorant Garamond Light (400) */
+.mry-h1,
+.mry-h2,
+.mry-h3,
+.mry-h4,
+.mry-h5,
+.mry-h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", serif !important;
+  font-weight: 400 !important;
+}
+
+/* Make sure the hero text stroke effect still looks good with the lighter font */
+.mry-border-text {
+  -webkit-text-stroke-width: 1px !important;
+  -moz-text-stroke-width: 1px !important;
+}
+
+/* 2. Mobile Off-Canvas Menu Items to Brandon Grot Light (400) */
+.mry-menu nav ul .menu-item a {
+  font-family: "BrandonGrotW01-Light", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* =========================================================
+ IMAGE GALLERY
+   ========================================================= */
+
+/* Main gallery container */
+.mry-portfolio-frame .mry-masonry-grid {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.mry-portfolio-frame .mry-masonry-grid-item {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 50px;
+  overflow: visible !important;
+}
+
+.mry-portfolio-frame .mry-card-item {
+  margin-bottom: 0;
+  overflow: visible !important;
+}
+
+.mry-portfolio-frame .mry-item-descr {
+  position: relative;
+  display: block;
+  height: auto;
+  overflow: visible !important;
+  z-index: 5;
+}
+
+.mry-portfolio-frame .mry-masonry-grid {
+  overflow: visible !important;
+  padding-bottom: 50px;
+}
+
+/* Remove the theme's default bottom margin */
+.mry-portfolio-frame .mry-card-cover-frame {
+  margin-bottom: 0 !important;
+  overflow: hidden;
+}
+
+/* Make images behave cleanly */
+.mry-portfolio-frame .mry-card-cover-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/* Remove unnecessary card spacing */
+.mry-portfolio-frame .mry-card-item {
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------
+   SUBTLE HOVER EFFECT
+   --------------------------------------------------------- */
+
+.mry-portfolio-frame .mry-card-cover-frame img {
+  transition: transform 0.5s ease;
+}
+
+.mry-portfolio-frame .mry-card-cover-frame:hover img {
+  transform: scale(1.015);
+}
+
+/* =========================================================
+   DESKTOP
+   ========================================================= */
+
+@media (min-width: 992px) {
+  .mry-portfolio-frame .mry-masonry-grid {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  .mry-portfolio-frame .mry-masonry-grid-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+  }
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .mry-portfolio-frame .mry-masonry-grid {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  .mry-portfolio-frame .mry-masonry-grid-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 575px) {
+  .mry-portfolio-frame .mry-masonry-grid {
+    margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  .mry-portfolio-frame .mry-masonry-grid-item {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 6px;
+  }
+}
+/* =====================================================
+   HERO IMAGE: CENTERED WITH DUAL-GRADIENT FADE
+===================================================== */
+
+/* Desktop background */
+.mry-project-slider-item {
+  background-color: #f7f8fa !important;
+}
+
+/* Center image */
+.mry-project-slider-item .mry-project-frame .mry-cover-frame {
+  float: none !important;
+  width: 100% !important;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/* Desktop: white/light-gray gradient */
+.mry-project-slider-item
+  .mry-project-frame
+  .mry-cover-overlay.mry-gradient-overlay {
+  background-image: linear-gradient(
+    90deg,
+    #f7f8fa 0%,
+    rgba(247, 248, 250, 0.85) 15%,
+    rgba(247, 248, 250, 0) 35%,
+    rgba(247, 248, 250, 0) 65%,
+    rgba(247, 248, 250, 0.85) 85%,
+    #f7f8fa 100%
+  ) !important;
+
+  background-color: transparent !important;
+}
+
+/* Mobile: completely remove gradient */
+@media (max-width: 768px) {
+  .mry-project-slider-item
+    .mry-project-frame
+    .mry-cover-overlay.mry-gradient-overlay {
+    background-image: none !important;
+    background-color: transparent !important;
+  }
 }

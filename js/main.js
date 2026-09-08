@@ -236,15 +236,15 @@
 
   var swiper = new Swiper(".mry-main-slider", {
     autoplay: {
-      delay: 30000,
+      delay: 7000,
       disableOnInteraction: false,
     },
     loop: true,
     parallax: true,
-    mousewheel: true,
-    mousewheel: {
-      releaseOnEdges: true,
-    },
+    // mousewheel: false,
+    // mousewheel: {
+    //   releaseOnEdges: true,
+    // },
     keyboard: true,
     speed: 1200,
     navigation: {
@@ -595,16 +595,16 @@
 
     var swiper = new Swiper(".mry-main-slider", {
       autoplay: {
-        delay: 30000,
+        delay: 7000,
         disableOnInteraction: false,
       },
       spaceBetween: 0,
       loop: true,
       parallax: true,
-      mousewheel: true,
-      mousewheel: {
-        releaseOnEdges: true,
-      },
+      // mousewheel: true,
+      // mousewheel: {
+      //   releaseOnEdges: true,
+      // },
       keyboard: true,
       speed: 1200,
       navigation: {

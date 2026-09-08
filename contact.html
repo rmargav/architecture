@@ -67,9 +67,19 @@
 					<img class="mry-logo" src="img/light/logo.png" alt="SeekingRoots">
 				</a>
 			</div>
-			<div class="mry-menu-button-frame">
-				<div class="mry-label">Menu</div>
 
+			<!-- NEW: Desktop Navigation -->
+			<nav class="mry-desktop-menu">
+				<ul>
+					<li><a href="index.html" class="mry-anima-link">Home</a></li>
+					<li><a href="about.html" class="mry-anima-link">About</a></li>
+					<li><a href="works.html" class="mry-anima-link">Works</a></li>
+					<li><a href="contact.html" class="mry-anima-link">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="mry-menu-button-frame">
+				<!-- <div class="mry-label">Menu</div> -->
 				<div class="mry-menu-btn mry-magnetic-link">
 					<div class="mry-burger mry-magnetic-object">
 						<span></span>
@@ -147,7 +157,7 @@
 						<div class="mry-main-title mry-title-center">
 							<div class="mry-subtitle mry-mb-20 mry-fo">Contact</div>
 							<h1 class="mry-mb-20 mry-fo">Do you have any questions?<br><span
-									class="mry-border-text">Write us a message.</span><span
+									style="font-style: italic;">Write us a message.</span><span
 									class="mry-animation-el"></span></h1>
 							<div class="mry-text mry-fo">Lorem ipsum dolor sit amet, consectetur.<br>Adipisicing elit
 								suscipit, at.</div>
@@ -164,7 +174,7 @@
 								<div class="row">
 									<div class="col-lg-6">
 
-										<div class="mry-mb-100 mry-text-center">
+										<div class="mry-mb-40 mry-text-center">
 											<div class="mry-numbering mry-fo">
 												<!-- <div class="mry-border-text">01</div> -->
 												<div class="mry-subtitle">Location</div>
@@ -180,7 +190,7 @@
 									</div>
 									<div class="col-lg-6">
 
-										<div class="mry-mb-100 mry-text-center">
+										<div class="mry-mb-40 mry-text-center">
 											<div class="mry-numbering mry-fo">
 												<!-- <div class="mry-border-text">02</div> -->
 												<div class="mry-subtitle">Contact</div>
@@ -199,7 +209,7 @@
 
 							<div class="col-lg-12">
 
-								<div class="mry-main-title mry-title-center mry-p-0-40">
+								<div class="mry-main-title mry-title-center">
 									<div class="mry-numbering mry-fo">
 										<!-- <div class="mry-border-text">03</div> -->
 										<div class="mry-subtitle">Contact form</div>
@@ -211,7 +221,7 @@
 
 							<div class="col-lg-8">
 
-								<form method="POST" id="form" class="mry-form mry-mb-100" action="send.php">
+								<form method="POST" id="form" class="mry-form mry-mb-40" action="send.php">
 
 									<div class="row">
 										<div class="col-lg-6">
@@ -272,7 +282,7 @@
 
 							<div class="col-lg-12">
 
-								<div class="mry-main-title mry-title-center mry-p-0-40">
+								<div class="mry-main-title mry-title-center">
 									<div class="mry-numbering mry-fo">
 										<!-- <div class="mry-border-text">04</div> -->
 										<div class="mry-subtitle">Map</div>
@@ -300,9 +310,11 @@
 				<!-- contact end -->
 
 				<!-- footer -->
-				<footer class="mry-footer">
+				<footer class="mry-footer" style="background-color: #ffffff;">
+
 					<div class="container">
-						<div class="mry-main-title mry-title-center mry-p-0-100">
+						<!-- Call to Action Section -->
+						<div class="mry-main-title mry-title-center mry-mb-40">
 							<div class="mry-subtitle mry-mb-20 mry-fo">Let’s Create Together</div>
 
 							<h2 class="mry-h1 mry-mb-20 mry-fo">
@@ -324,7 +336,33 @@
 								</a>
 							</div>
 						</div>
+
+						<!-- NEW: Contact Information Section -->
+						<div class="row justify-content-center mry-fo"
+							style="text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding: 20px 0;">
+							<!-- Address -->
+							<div class="col-md-4 mry-mb-30">
+								<div class="mry-label mry-mb-10">Address</div>
+								<div class="mry-text">
+									310, Supremus Vihav, Near Iscon Atria,<br>Gotri, Vadodara-21.
+								</div>
+							</div>
+
+							<!-- Email -->
+							<div class="col-md-4 mry-mb-30">
+								<div class="mry-label mry-mb-10">Email</div>
+								<a class="mry-text" href="mailto:seekingroots09@gmail.com">seekingroots09@gmail.com</a>
+							</div>
+
+							<!-- Phone -->
+							<div class="col-md-4 mry-mb-30">
+								<div class="mry-label mry-mb-10">Phone</div>
+								<a class="mry-text" href="tel:+919879403481">+91 987 940 3481</a>
+							</div>
+						</div>
 					</div>
+
+					<!-- Copyright & Socials Bar -->
 					<div class="mry-footer-copy">
 						<div class="container">
 							<div>Copyright © Seeking Roots 2026</div>
@@ -375,11 +413,6 @@
 					</div>
 				</footer>
 				<!-- footer end -->
-
-				<div class="mry-head-bg mry-head-bottom">
-					<img src="img/light/projects/elementpharma/IMG (3).jpg" alt="background">
-					<div class="mry-bg-overlay"></div>
-				</div>
 
 			</div>
 		</div>

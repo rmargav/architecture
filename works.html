@@ -67,9 +67,19 @@
 					<img class="mry-logo" src="img/light/logo.png" alt="SeekingRoots">
 				</a>
 			</div>
-			<div class="mry-menu-button-frame">
-				<div class="mry-label">Menu</div>
 
+			<!-- NEW: Desktop Navigation -->
+			<nav class="mry-desktop-menu">
+				<ul>
+					<li><a href="index.html" class="mry-anima-link">Home</a></li>
+					<li><a href="about.html" class="mry-anima-link">About</a></li>
+					<li><a href="works.html" class="mry-anima-link">Works</a></li>
+					<li><a href="contact.html" class="mry-anima-link">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="mry-menu-button-frame">
+				<!-- <div class="mry-label">Menu</div> -->
 				<div class="mry-menu-btn mry-magnetic-link">
 					<div class="mry-burger mry-magnetic-object">
 						<span></span>
@@ -149,7 +159,7 @@
 
 							<h1 class="mry-mb-20 mry-fo">
 								Spaces Rooted in<br>
-								<span class="mry-border-text">Context & Purpose</span>
+								<span style="font-style: italic;">Context & Purpose</span>
 								<span class="mry-animation-el"></span>
 							</h1>
 
@@ -163,7 +173,7 @@
 
 
 				<!-- portfolio -->
-				<div class="mry-portfolio mry-p-100-100">
+				<div class="mry-portfolio mry-p-100-0">
 					<div class="container">
 
 						<!-- portfolio filters -->
@@ -201,7 +211,7 @@
 
 										<div class="mry-card-cover-frame mry-mb-20 mry-fo">
 
-											<div class="mry-badge">Interior Design</div>
+											<!-- <div class="mry-badge">Interior Design</div> -->
 
 											<img src="img/light/projects/elementpharma/IMG (3).jpg"
 												alt="Elements Pharma Interior Design">
@@ -231,16 +241,17 @@
 											</div>
 										</div>
 
-
 										<div class="mry-item-descr mry-fo">
 
 											<h4 class="mry-mb-10">
 												<a href="/projects/elementpharma.html">Elements Pharma</a>
 											</h4>
 
-											<div class="mry-text">
-												A compact workplace designed with natural light,
-												fluted glass and refined detailing.
+											<div class="mry-project-info">
+												<span>Interior Design</span>
+												<span>180 sq. ft.</span>
+												<span>2022</span>
+												<span>Vadodara, Gujarat</span>
 											</div>
 
 										</div>
@@ -260,7 +271,7 @@
 
 										<div class="mry-card-cover-frame mry-mb-20 mry-fo">
 
-											<div class="mry-badge">Interior Design</div>
+											<!-- <div class="mry-badge">Interior Design</div> -->
 
 											<img src="img/light/projects/keystone72/IMG (3).jpg"
 												alt="Keystone 72 Interior Design">
@@ -291,16 +302,17 @@
 
 										</div>
 
-
 										<div class="mry-item-descr mry-fo">
 
 											<h4 class="mry-mb-10">
 												<a href="/projects/keystone72.html">Keystone 72</a>
 											</h4>
 
-											<div class="mry-text">
-												A thoughtfully crafted interior shaped by
-												materiality, function and refined spatial detailing.
+											<div class="mry-project-info">
+												<span>Interior Design</span>
+												<span>AREA HERE sq. ft.</span>
+												<span>2026</span>
+												<span>Vadodara, Gujarat</span>
 											</div>
 
 										</div>
@@ -381,7 +393,7 @@
 
 										<div class="mry-card-cover-frame mry-mb-20 mry-fo">
 
-											<div class="mry-badge">Landscape</div>
+											<!-- <div class="mry-badge">Landscape</div> -->
 
 											<img src="img/light/projects/luma/Sketch 1.jpg"
 												alt="Luma Optics Landscape Design">
@@ -412,16 +424,17 @@
 
 										</div>
 
-
 										<div class="mry-item-descr mry-fo">
 
 											<h4 class="mry-mb-10">
 												<a href="/projects/luma.html">Luma Optics</a>
 											</h4>
 
-											<div class="mry-text">
-												A considered outdoor environment balancing
-												greenery, identity and the surrounding context.
+											<div class="mry-project-info">
+												<span>Landscape</span>
+												<span>AREA HERE sq. ft.</span>
+												<span>2026</span>
+												<span>Vadodara, Gujarat</span>
 											</div>
 
 										</div>
@@ -435,14 +448,13 @@
 								<!-- 05. EASTIN RESIDENCY - LANDSCAPE -->
 								<!-- ================================================= -->
 
-								<div
-									class="mry-masonry-grid-item mry-masonry-grid-item-50 mry-masonry-grid-item-h-x-2 landscape">
+								<div class="mry-masonry-grid-item mry-masonry-grid-item-50 landscape">
 
 									<div class="mry-card-item">
 
 										<div class="mry-card-cover-frame mry-mb-20 mry-fo">
 
-											<div class="mry-badge">Landscape</div>
+											<!-- <div class="mry-badge">Landscape</div> -->
 
 											<img src="img/light/projects/eastin/IMG (1).jpg"
 												alt="Eastin Residency Landscape Design">
@@ -473,16 +485,17 @@
 
 										</div>
 
-
 										<div class="mry-item-descr mry-fo">
 
 											<h4 class="mry-mb-10">
 												<a href="/projects/eastin.html">Eastin Residency</a>
 											</h4>
 
-											<div class="mry-text">
-												A landscape approach rooted in site context,
-												layered planting and a sense of place.
+											<div class="mry-project-info">
+												<span>Landscape</span>
+												<span>4400 sq. ft.</span>
+												<span>2026</span>
+												<span>Vadodara, Gujarat</span>
 											</div>
 
 										</div>
@@ -500,9 +513,11 @@
 				<!-- portfolio end -->
 
 				<!-- footer -->
-				<footer class="mry-footer">
+				<footer class="mry-footer" style="background-color: #ffffff;">
+
 					<div class="container">
-						<div class="mry-main-title mry-title-center mry-p-0-100">
+						<!-- Call to Action Section -->
+						<div class="mry-main-title mry-title-center mry-mb-40">
 							<div class="mry-subtitle mry-mb-20 mry-fo">Let’s Create Together</div>
 
 							<h2 class="mry-h1 mry-mb-20 mry-fo">
@@ -524,7 +539,33 @@
 								</a>
 							</div>
 						</div>
+
+						<!-- NEW: Contact Information Section -->
+						<div class="row justify-content-center mry-fo"
+							style="text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding: 20px 0;">
+							<!-- Address -->
+							<div class="col-md-4 mry-mb-30">
+								<div class="mry-label mry-mb-10">Address</div>
+								<div class="mry-text">
+									310, Supremus Vihav, Near Iscon Atria,<br>Gotri, Vadodara-21.
+								</div>
+							</div>
+
+							<!-- Email -->
+							<div class="col-md-4 mry-mb-30">
+								<div class="mry-label mry-mb-10">Email</div>
+								<a class="mry-text" href="mailto:seekingroots09@gmail.com">seekingroots09@gmail.com</a>
+							</div>
+
+							<!-- Phone -->
+							<div class="col-md-4 mry-mb-30">
+								<div class="mry-label mry-mb-10">Phone</div>
+								<a class="mry-text" href="tel:+919879403481">+91 987 940 3481</a>
+							</div>
+						</div>
 					</div>
+
+					<!-- Copyright & Socials Bar -->
 					<div class="mry-footer-copy">
 						<div class="container">
 							<div>Copyright © Seeking Roots 2026</div>
@@ -575,11 +616,6 @@
 					</div>
 				</footer>
 				<!-- footer end -->
-
-				<div class="mry-head-bg mry-head-bottom">
-					<img src="img/light/projects/elementpharma/IMG (3).jpg" alt="background">
-					<div class="mry-bg-overlay"></div>
-				</div>
 
 			</div>
 		</div>
